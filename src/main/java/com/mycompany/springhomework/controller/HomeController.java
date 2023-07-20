@@ -16,7 +16,12 @@ public class HomeController {
 	public String index() {
 		
 		log.info("실행1");
+<<<<<<< HEAD
 		return "home";
+=======
+		log.info("실행2");
+		return "index";
+>>>>>>> branch 'master' of https://github.com/noismik/springhomework.git
 		
 		
 	}
